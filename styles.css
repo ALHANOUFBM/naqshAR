@@ -563,30 +563,9 @@ input[type="text"]:not(:placeholder-shown) {
         margin: 20px 0 !important; /* Reduced margin */
     }
 
-    .banner {
-        height: 50vh; /* Reduce height for mobile */
-        margin-bottom: 25px !important; /* Space below the banner */
-    }
-
     .slider {
-        width: 90% !important; /* Use a percentage width for flexibility */
-        height: auto !important; /* Maintain aspect ratio */
-        transform-style: preserve-3d !important;
-        perspective: 1000px !important;
-    }
-
-    .slider .item {
-        transform: rotateY(calc(360deg / var(--quantity) * (var(--position) - 1))) translateZ(200px) !important; /* Closer images */
-        transition: transform 1s;
-    }
-
-    .slider .item img {
-        margin: 0 2px;
-        object-fit: cover !important;
-        width: 100% !important;
-        height: 100% !important;
-        filter: sepia(30%) contrast(1.2) brightness(0.7);
-        transition: transform 0.5s ease, filter 0.5s ease;
+        width: 80%;
+        height: auto;
     }
 
     .card-container {
