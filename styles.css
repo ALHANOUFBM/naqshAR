@@ -564,7 +564,7 @@ input[type="text"]:not(:placeholder-shown) {
     }
 
     .slider {
-        width: 80%;
+        width: 60%;
         height: auto;
     }
 
