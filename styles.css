@@ -563,11 +563,6 @@ input[type="text"]:not(:placeholder-shown) {
         margin: 20px 0 !important; /* Reduced margin */
     }
 
-    .slider {
-        width: 60%;
-        height: auto;
-    }
-
     .card-container {
         flex-direction: column;
         align-items: center;
