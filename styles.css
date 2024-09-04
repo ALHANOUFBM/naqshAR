@@ -610,6 +610,19 @@ input[type="text"]:not(:placeholder-shown) {
     position: relative;
     height: 100%;
 }
+
+    .slider {
+        width: 80%; /* Adjust slider width for smaller screens */
+        height: auto; /* Keep the height flexible */
+    }
+
+    .slider .item {
+        transform: rotateY(calc(360deg / var(--quantity) * (var(--position) - 1))) translateZ(250px); /* Less space for mobile */
+    }
+
+    .slider .item img {
+        margin: 0 2px; /* Smaller margin for tighter spacing on mobile */
+    }
 }
 
 
